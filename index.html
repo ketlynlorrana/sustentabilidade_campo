@@ -1,0 +1,62 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gêmeos Digitais na Agricultura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>AgroTwin: Gêmeos Digitais Rurais</h1>
+        <p>A representação virtual da sua propriedade em tempo real</p>
+    </header>
+
+    <main class="container">
+        <!-- Seção de Conceito -->
+        <section class="card intro">
+            <h2>O que é um Gêmeo Digital Rural?</h2>
+            <p>É uma réplica virtual de uma fazenda física. Ele conecta sensores IoT, dados climáticos e maquinários para simular, prever e otimizar a produção agrícola e o uso de recursos naturais.</p>
+        </section>
+
+        <!-- Painel de Monitoramento Simulado -->
+        <section class="dashboard">
+            <h2>Painel do Gêmeo Digital: Fazenda Santa Maria</h2>
+            
+            <div class="grid">
+                <!-- Card 1: Solo -->
+                <div class="card status-card">
+                    <h3>Umidade do Solo</h3>
+                    <div class="metric" id="metric-umidade">-- %</div>
+                    <p class="status-msg" id="msg-umidade">Coletando dados...</p>
+                </div>
+
+                <!-- Card 2: Clima -->
+                <div class="card status-card">
+                    <h3>Temperatura do Campo</h3>
+                    <div class="metric" id="metric-temp">-- °C</div>
+                    <p class="status-msg" id="msg-temp">Conectando a satélites...</p>
+                </div>
+
+                <!-- Card 3: Maquinário -->
+                <div class="card status-card">
+                    <h3>Status dos Tratores</h3>
+                    <div class="metric" id="metric-maquinas">--</div>
+                    <p class="status-msg" id="msg-maquinas">Rastreando frota...</p>
+                </div>
+            </div>
+
+            <!-- Botão de Ação -->
+            <div class="actions">
+                <button id="btn-simular">Rodar Simulação Algorítmica</button>
+                <p id="log-simulacao"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 AgroTwin Inteligência Agrícola. Tecnologia e Sustentabilidade.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
